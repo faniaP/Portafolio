@@ -11,7 +11,7 @@ Este repositorio reúne proyectos de ciencia de datos enfocados en problemas de 
 
 ## Proyectos Destacados
 
-### 1) Predicción de Fuga de Clientes (Churn)
+### 1) Predicción de Fuga de Clientes en bancos (Churn Beta Bank)
 **Objetivo:** predecir qué clientes tienen mayor probabilidad de abandonar el servicio.  
 **Modelos:** Regresión Logística, Random Forest  
 **Métricas:** F1-score / ROC-AUC (según notebook)  
