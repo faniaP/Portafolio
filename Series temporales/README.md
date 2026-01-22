@@ -62,8 +62,8 @@ Se entrenaron distintos modelos de regresión adaptados a series temporales, inc
 - **RECM (Raíz del Error Cuadrático Medio)**
 
 📌 Criterio del proyecto:
-```text
 RECM ≤ 48
+
 
 ---
 
