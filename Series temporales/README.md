@@ -98,6 +98,7 @@ Esta solución puede apoyar la toma de decisiones operativas, como la asignació
 - Jupyter Notebook
 
 ### Estructura del proyecto
+```text
 series_temporales/
 │
 ├── series_temporales.ipynb
