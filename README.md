@@ -14,24 +14,28 @@ Este repositorio reúne proyectos de ciencia de datos enfocados en problemas de 
 ### 1) Predicción de Fuga de Clientes en bancos (Churn Beta Bank)
 **Objetivo:** predecir qué clientes tienen mayor probabilidad de abandonar el servicio.  
 **Modelos:** Regresión Logística, Random Forest  
-**Métricas:** F1-score / ROC-AUC (según notebook)  
-📁 Carpeta: `projects/churn-prediction/`
+**Métricas:** F1-score / ROC-AUC
+**Resultado:** Precisión del 94% y un F1-Score de 86%
+📁 Carpeta: `Portafolio/Churn Beta Bank/`
 
 ### 2) Recomendación de Plan Tarifario
 **Objetivo:** recomendar el plan óptimo según el patrón de consumo.  
 **Modelos:** Decision Tree, Random Forest  
 **Resultado:** precisión hasta 82%  
-📁 Carpeta: `projects/plan-recommendation/`
+📁 Carpeta: `Portafolio/Recomendación de Plan tarifario/`
 
-### 3) Optimización de Ingresos (Pruebas de Hipótesis)
-**Objetivo:** identificar el plan con mayor rentabilidad.  
-**Técnicas:** pruebas de hipótesis, análisis estadístico  
-📁 Carpeta: `projects/revenue-optimization/`
 
-### 4) Predicción de Ventas de Videojuegos
+### 3) Predicción de Ventas de Videojuegos
 **Objetivo:** detectar variables asociadas al éxito comercial.  
 **Técnicas:** análisis exploratorio, correlación, pruebas estadísticas  
-📁 Carpeta: `projects/videogame-sales/`
+📁 Carpeta: `Portafolio/prediccion_ventas_videjuegos/`
+
+### 4) Series temporales - predicción de  pedidos de taxis
+**Objetivo:** Construir un modelo predictivo que:
+- Pronostique la cantidad de pedidos de taxis para la siguiente hora
+- Capture patrones temporales como tendencia y estacionalidad
+**Técnicas:** análisis exploratorio con series temporales.
+📁 Carpeta: `Portafolio/prediccion_taxis/`
 
 ---
 
@@ -40,6 +44,7 @@ Este repositorio reúne proyectos de ciencia de datos enfocados en problemas de 
 - **Machine Learning (scikit-learn)**
 - **Estadística aplicada y A/B testing**
 - **ETL / Automatización**
-- **Visualización (Power BI, Matplotlib)**
+- **Visualización (Matplotlib)**
+- **Series temporales**
 
 ---
