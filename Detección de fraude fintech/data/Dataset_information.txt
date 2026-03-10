@@ -1,0 +1,31 @@
+Acerca del conjunto de datos
+
+Contexto
+Es importante que las compañías de tarjetas de crédito puedan reconocer las 
+transacciones fraudulentas para evitar que se les cobre a los clientes 
+artículos que no compraron.
+
+Contenido
+El conjunto de datos contiene transacciones realizadas con tarjetas de crédito 
+en septiembre de 2013 por titulares europeos.
+Este conjunto de datos presenta transacciones ocurridas en dos días, 
+con 492 fraudes de un total de 284,807 transacciones. El conjunto de datos 
+presenta un alto desequilibrio: la clase positiva (fraudes) representa el 
+0.172 % del total de transacciones.
+
+Contiene únicamente variables numéricas de entrada, resultado de una 
+transformación PCA. Lamentablemente, debido a cuestiones de confidencialidad, 
+no podemos proporcionar las características originales ni más información 
+sobre los datos. Las características V1, V2, … V28 son los componentes 
+principales obtenidos con PCA; las únicas características que no se han 
+transformado con PCA son «Tiempo» e «Importe». La característica «Tiempo» 
+contiene los segundos transcurridos entre cada transacción y la primera 
+transacción del conjunto de datos. La característica "Monto" representa el 
+importe de la transacción. Esta característica se puede utilizar para el 
+aprendizaje sensible al coste según el ejemplo. La característica "Clase" 
+es la variable de respuesta y toma el valor 1 en caso de fraude y 0 en 
+caso contrario.
+
+
+Link de descarga:
+https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
